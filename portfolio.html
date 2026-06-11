@@ -3,42 +3,110 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Portfolio</title>
+<title>Akshaya Myadam | Web Developer</title>
+<meta name="description" content="Portfolio of Akshaya Myadam, Web Development Intern from Hyderabad">
 <style>
-body { font-family: Arial, sans-serif; margin: 0; padding: 20px; line-height: 1.6; }
-.container { max-width: 800px; margin: auto; }
-img { width: 150px; border-radius: 50%; }
-h1, h2 { color: #333; }
-.section { margin: 30px 0; }
-input, textarea { width: 100%; padding: 8px; margin: 5px 0; } button { padding: 10px 20px; background: #0077b5; color: white; border: none; }
-</style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background: #f5f5f5;
+color: #333;
+line-height: 1.6;
+    }
+header {
+      background: #4a90e2;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; margin: 0; }
+    header p { font-size: 1.2rem; margin: 10px 0 0 0; }
+    section {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: 20px auto;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 { color: #4a90e2; margin-top: 0; }
+    .skills span {
+      display: inline-block;
+      background: #e1ecf4;
+      color: #2c5aa0;
+      padding: 6px 12px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    .project {
+      border-left: 3px solid #4a90e2;
+      padding-left: 15px;
+      margin: 15px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+      background: #333;
+      color: white;
+    }
+    a { color: #4a90e2; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
-<div class="container">
-<h1>Your Name</h1>
-<img src="https://via.placeholder.com/150" alt="Profile">
-<p><strong>Web Dev Intern</strong> | Short bio about your passion for coding.</p>
-<div class="section">
-<h2>Education</h2>
-<p>B.Tech in CSE, Your College, 2026</p>
-</div>
-<div class="section">
-<h2>Skills</h2>
-<p>HTML, CSS, JavaScript, React</p>
-</div>
-<div class="section">
-<h2>Projects</h2>
-<p><strong>Project 1:</strong> Description of what you built.</p>
-</div>
-<div class="section">
-<h2>Contact</h2>
-<form>
-<input type="text" placeholder="Your Name">
-<input type="email" placeholder="Your Email">
-<textarea placeholder="Message"></textarea>
-<button type="submit">Send</button>
-</form>
-</div>
-</div>
+  <header>
+    <h1>Akshaya Myadam</h1>
+    <p>Web Development Intern | Hyderabad, Telangana, India</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hi! I'm Akshaya, an aspiring web developer from Hyderabad. I'm passionate about building clean, responsive websites and currently pursuing a Web Development Internship with KODBUD. I enjoy learning HTML, CSS, JavaScript, and turning ideas into real projects.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>JavaScript</span>
+      <span>Git</span>
+      <span>GitHub</span>
+      <span>Responsive Design</span>
+      <span>GitHub Pages</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>KODBUD Portfolio Website</h3>
+      <p>Task 1: A responsive personal portfolio built with HTML and CSS. Deployed live using GitHub Pages.</p>
+    </div>
+    <div class="project">
+      <h3>Landing Page Clone</h3>
+      <p>Task 2: Recreated a modern landing page to practice CSS flexbox, layouts, and styling.</p>
+    </div>
+    <div class="project">
+      <h3>Google Homepage Clone</h3>
+      <p>Task 3: Built a pixel-perfect clone of Google's homepage using only HTML and CSS.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:akshayamyadam@gmail.com">akshayamyadam@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/akshayamyadam" target="_blank">github.com/akshayamyadam</a></p>
+    <p>Location: Hyderabad, Telangana, India</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Akshaya Myadam. Built for KODBUD Web Dev Internship.</p>
+  </footer>
+</body>
+</html>
 </body>
 </html>
